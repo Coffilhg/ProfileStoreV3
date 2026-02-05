@@ -1,4 +1,17 @@
+ProfileStoreV3
+Copyright © 2026 Coffilhg
+
+This product includes software derived from:
+
 ProfileStore
 Copyright © MadStudioRoblox
 Licensed under the Apache License, Version 2.0
 https://github.com/MadStudioRoblox/ProfileStore
+
+Modifications have been made to support:
+- Extended Roblox datatype handling
+- Event-driven value replication
+- Client subscription-based synchronization
+
+This product includes software developed by:
+- stravant (GoodSignal): https://github.com/stravant/goodsignal (MIT License Copyright © 2021 Mark Langen)
