@@ -14,6 +14,8 @@ All of the used scripts can be found in [src](src), they are already adjusted to
 
 Note that LocalScript by itself doesn't run if parented to **ReplicatedStorage**, you have to insert a **Script** and change it's **RunContext** property to **Client** like shown in the image above.
 
+All scripts are bundled together into an [.rbxm file](src/ProfileStoreV3Theta.rbxm)
+
 ### To-Do
 - [x] Fix ReconcileTable Messing up everything when an entirely new key is added to the PROFILE_TEMPLATE
 - [ ] Check if `CoffeeFolder.validateUnlinkedClass(target[k])` removal is possible from ReconcileTable (slight optimization)
