@@ -1,0 +1,24 @@
+[package]
+name = "coffilhg/profilestorev3"
+description = "Based on ProfileStore, it's V2 fork, PerfectSignal, CoffeeParser and CoffeeObjects - a Periodic DataStore saving solution with session locking, subscription-based event-driven replication and many Roblox Datatypes support for Datastores ~ everything out of the box! Developed by loleris, Coffilhg and many others!"
+version = "0.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+license = "Apache-2.0"
+authors = ["MadStudioRoblox", "Coffilhg <coffilhg@gmail.com>"]
+repository = "https://github.com/Coffilhg/ProfileStoreV3"
+realm = "shared"
+
+[dependencies]
+CoffeeParser = "coffilhg/coffeeparser@1.0.*"
+CoffeeObjects = "coffilhg/coffeeobjects@2.4.0"
+CoffeeRemotesClient = "coffilhg/coffeeremotes-client@1.0.1"
+Counter = "coffilhg/counter@1.0.1"
+Arrangement = "coffilhg/arrangement@2.0.0"
+LemonSignal = "data-oriented-house/lemonsignal@2.0.0"
+
+[server-dependencies]
+ProfileStoreV2 = "coffilhg/profilestorev2@2.*"
+CoffeeRemotesServer = "coffilhg/coffeeremotes-server@1.0.1"
+
+[place]
+shared-packages = "game.ReplicatedStorage.Packages"

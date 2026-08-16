@@ -1,0 +1,19 @@
+{
+  "name": "Sync Package",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+
+    "ServerScriptService": {
+        "ServerPackages": {
+            "$path": "ServerPackages"
+        }
+    }
+    
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Testing",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "PSV3ClientSide": {
+        "$className": "Folder",
+        "$path": "src/PSV3ClientSide/"
+      },
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Example_PSV3_Client": {
+        "$path": "src/ClientExample",
+        "$properties": {
+          "RunContext": "Client"
+        }
+      }
+    },
+
+    "ServerScriptService": {
+        "PSV3ServerSide": {
+          "$className": "Folder",
+          "$path": "src/PSV3ServerSide/"
+        },
+        "ServerPackages": {
+            "$path": "ServerPackages"
+        },
+        "Example_PSV3_Server": {
+          "$path": "src/ServerExample"
+        }
+    }
+    
+  }
+}
